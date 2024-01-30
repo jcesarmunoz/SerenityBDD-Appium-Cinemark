@@ -25,7 +25,7 @@ Pruebas automatizadas en dispositivos moviles usando la herramienta SerenityBDD 
 Clonar el proyecto en github
 
 ```bash
-  git clone 
+  git clone https://github.com/jcesarmunoz/SerenityBDD-Appium-Cinemark.git
 ```
 
 Para correr el proyecto de manera local se debe realizar los siguientes pasos:
