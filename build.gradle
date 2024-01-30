@@ -27,15 +27,17 @@ targetCompatibility = 1.8
 
 ext {
     slf4jVersion = '1.7.7'
-    serenityCoreVersion = '3.3.10'
-    serenityCucumberVersion = '3.3.10'
+    serenityCoreVersion = '4.0.44'
+    serenityCucumberVersion = '4.0.44'
     junitVersion = '4.13.1'
     assertJVersion = '3.23.1'
-    logbackVersion = '1.2.10'
+    logbackVersion = '1.4.12'
 }
 
 dependencies {
     implementation "ch.qos.logback:logback-classic:${logbackVersion}"
+// https://mvnrepository.com/artifact/io.appium/java-client
+    implementation 'io.appium:java-client:9.0.0'
 
     testImplementation "net.serenity-bdd:serenity-core:${serenityCoreVersion}",
             "net.serenity-bdd:serenity-cucumber:${serenityCucumberVersion}",
